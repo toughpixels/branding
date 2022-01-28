@@ -1,0 +1,15 @@
+name = "Branding"
+license = "MIT"
+licenselink = "https://github.com/toughpixels/branding/main/LICENSE"
+description = "Tough Pixels branding theme for Hugo."
+homepage = "https://github.com/toughpixels/branding/"
+tags = [
+  "branding"
+]
+min_version = "0.50"
+
+[params]
+
+[author]
+  name = "Tough Pixels"
+  homepage = "https://toughpixels.com"
