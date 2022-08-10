@@ -1,0 +1,37 @@
+:root {
+  --light: aliceblue;
+  --dark: #43bbaddb;
+  --header: darkblue;
+  --border: .2rem;
+  --sm: .5rem;
+  --md: 1.75rem;
+  --lg: 3rem;
+  --txt: 24px;
+}
+
+.bg-dark {
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+body {
+  font-size: var(--txt);
+}
+
+header {
+  background-color: var(--header);
+}
+
+.contain {
+  background-color: var(--dark);
+  padding-right: var(--md);
+  padding-left: var(--md);
+  max-width: 120ch;
+  padding-top: var(--md);
+}
+
+h2 {
+  max-width: 30ch;
+  margin-left: auto;
+  margin-right: auto;
+}
