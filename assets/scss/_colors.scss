@@ -7,6 +7,9 @@
   --md: 1.75rem;
   --lg: 3rem;
   --txt: 24px;
+  --large-width: 75ch;
+  --medium-width: 65ch;
+  --narrow-width: 55ch;
 }
 
 .bg-dark {
@@ -23,11 +26,16 @@ header {
 }
 
 .contain {
-  background-color: var(--dark);
   padding-right: var(--md);
   padding-left: var(--md);
-  max-width: 120ch;
   padding-top: var(--md);
+  max-width: var(--large-width);
+  margin: auto;
+}
+
+.contain p {
+  max-width: var(--medium-width);
+  margin: auto;
 }
 
 h2 {
