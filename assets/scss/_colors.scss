@@ -1,7 +1,8 @@
 :root {
   --light: aliceblue;
-  --dark: #43bbaddb;
+  --dark: #43bbad;
   --header: darkblue;
+  --dark-text: #000109;
   --border: .2rem;
   --sm: .5rem;
   --md: 1.75rem;
@@ -10,36 +11,4 @@
   --large-width: 75ch;
   --medium-width: 65ch;
   --narrow-width: 55ch;
-}
-
-.bg-dark {
-  color: var(--light);
-  background-color: var(--dark);
-}
-
-body {
-  font-size: var(--txt);
-}
-
-header {
-  background-color: var(--header);
-}
-
-.contain {
-  padding-right: var(--md);
-  padding-left: var(--md);
-  padding-top: var(--md);
-  max-width: var(--large-width);
-  margin: auto;
-}
-
-.contain p {
-  max-width: var(--medium-width);
-  margin: auto;
-}
-
-h2 {
-  max-width: 30ch;
-  margin-left: auto;
-  margin-right: auto;
 }
