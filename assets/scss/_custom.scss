@@ -55,6 +55,10 @@ h2 {
 }
 
 .values-grid {
-  grid-template-columns: 1fr 2fr; 
+  grid-template-columns: repeat(3, minmax(0, 1fr)); 
   grid-gap: 5ch;
+}
+
+.value-text {
+  grid-column: span 2;
 }
