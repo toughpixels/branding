@@ -1,0 +1,39 @@
+{{- define "main" }}
+<div class="contain">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <form action="" method="get">
+        <div class="form-example">
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name" required>
+        </div>
+        <div class="form-example">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name" required>
+        </div>
+        <div class="form-example">
+          <label for="website">Website</label>
+          <input type="url" name="website" id="website">
+        </div>
+        <div class="form-example">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone">
+        </div>
+        <div class="form-example">
+          <label for="location">Location</label>
+          <input type="text" name="location" id="location">
+        </div>
+        <div class="form-example">
+          <input type="checkbox" name="contact-me" id="contact-me">
+          <label for="contact-me">I want to receive four emails a year about how to plan and build websites.</label>
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+</div>
+{{- end }}

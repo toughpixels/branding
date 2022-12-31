@@ -2,6 +2,7 @@
   --light: aliceblue;
   --dark: #43bbad;
   --header: darkblue;
+  --header-background: black;
   --dark-text: #000109;
   --border: .2rem;
   --sm: .5rem;
@@ -11,4 +12,12 @@
   --large-width: 75ch;
   --medium-width: 65ch;
   --narrow-width: 55ch;
+}
+
+.curve {
+  background-color: var(--header-background);
+}
+
+header {
+  background-color: var(--header-background);
 }
